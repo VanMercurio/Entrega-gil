@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(5, 5, 76);
+
+}
+
+.enviar {
+
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: rgb(224, 219, 231);
+    color: rgb(5, 5, 76);
+    cursor: pointer;
+}
+
+
+.inputs {
+    padding: 8px 5px;
+    border-radius: 5px;
+    background-color: rgb(224, 219, 231);
+    border: 1px solid black;
+    width: 100%;
+    transition: .2s;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content {
+    background-color: rgb(94, 94, 203);
+    padding: 10px;
+    border-radius: 10px;
+
+}
